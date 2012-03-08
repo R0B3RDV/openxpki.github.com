@@ -24,7 +24,7 @@ A couple of the advantages of Jekyll, and in our case Jekyll-Bootstrap, are:
 For those interested in creating content, just clone the
 [openxpki.github.com](https://github.com/openxpki/openxpki.github.com)
 repository on github and take a look at the
-["Jekyll Quick Start"](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+[Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 for a couple of tips and tricks.
 
 One important note for contributors: in contrast to the code repository, where
