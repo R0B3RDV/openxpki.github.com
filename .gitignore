@@ -8,3 +8,8 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+# ignore VIM backups and swap files
+*~
+.*.swp
+
