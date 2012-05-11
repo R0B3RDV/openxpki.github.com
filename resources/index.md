@@ -2,15 +2,14 @@
 layout: page
 title: "Resources"
 group: navigation
-tags: 
-- Recources
-- bla
+tags: [Resources]
+category: Resources
 ---
 {% include JB/setup %}
 
 
 <ul class="nav nav-tabs">
-<li><a href="index.html" data-toggle="tab">Recources</a></li>
+<li class="active"><a href="index.html" data-toggle="tab">Recources</a></li>
 <li><a href="wwwmirrors.html" data-toggle="tab">WWWMirrors</a></li>
 <li><a href="links.html" data-toggle="tab">Links</a></li>
 </ul>

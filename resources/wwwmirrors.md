@@ -4,9 +4,10 @@ title: "WWW Mirrors"
 ---
 {% include JB/setup %}
 
+
 <ul class="nav nav-tabs">
 <li><a href="index.html" data-toggle="tab">Recources</a></li>
-<li><a href="wwwmirrors.html" data-toggle="tab">WWWMirrors</a></li>
+<li class="active"><a href="wwwmirrors.html" data-toggle="tab">WWWMirrors</a></li>
 <li><a href="links.html" data-toggle="tab">Links</a></li>
 </ul>
 
