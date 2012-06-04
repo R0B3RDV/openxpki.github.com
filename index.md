@@ -48,183 +48,13 @@ design objectives.
 
 # News #
 
-<p>
-	  This section reports major milestones of the OpenXPKI
-	  project as well as important events (such as Workshops).
-</p>
-
-
-
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+[News archive](archive.html)
 
-
-
-<dl>
-<dt>2009-Jan-14
-</dt>
-<dd>
-<a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/273">
-OpenXPKI now works with all versions of Apache at all supported platforms in both mod_perl and cgi modes
-</a>
-</dd>
-
-<dt>2008-Aug-14
-</dt>
-<dd><a href="http://wiki.openxpki.org">OpenXPKI wiki created
-</a>
-</dd>
-
-<dt>2008-Jul-29
-</dt>
-<dd>
-<a href="http://permalink.gmane.org/gmane.comp.security.openxpki.user/210">IRC channel #openxpki on freenode created
-</a>
-</dd>
-
-<dt>2008-May-15
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/239">OpenXPKI Live (beta) affected by Debian OpenSSL bug
-</a>
-</dd>
-
-<dt>2008-Jan-04
-</dt>
-<dd>
-<a href="http://permalink.gmane.org/gmane.comp.security.openxpki.user/164">New OpenXPKI Live (beta) released
-</a>
-</dd>
-
-<dt>2007-Sep-06</dt>
-<dd>
-<a href="http://permalink.gmane.org/gmane.comp.security.openxpki.user/142">OpenXPKI Live (beta) released
-</a>
-</dd>
-
-<dt>2007-Jun-22
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/138">Workflow ACLs
-</a>
-</dd>
-
-<dt>2007-Jun-12
-</dt>
-<dd>
-<a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/127">Configuration versioning
-</a>
-</dd>
-
-<dt>2007-May-22
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/121">Automatic generation of random passwords during deployment
-</a>
-</dd>
-
-<dt>2007-May-09
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/113">Support for local changes to translation files
-</a>
-</dd>
-
-<dt>2007-May-07
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/114">Automated testing reports
-</a>
-</dd>
-
-<dt>2007-Apr-17</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/90">Template-based certificate subject generation
-</a>
-</dd>
-
-<dt>2007-Mar-02
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/76">Browser-based approval using digital signatures
-</a>
-</dd>
-
-<dt>2007-Feb-09
-</dt>
-<dd><a href="http://permalink.gmane.org/gmane.comp.security.openxpki.devel/60">Notification framework and Request Tracker interface
-</a>
-</dd>
-<dt>2007-Feb-02
-</dt>
-<dd>Certificate revocation request workflow and interface functional
-</dd>
-<dt>2007-Jan-26
-</dt>
-<dd>First successful production deployment of OpenXPKI 
-<a href="/2007/01/26/success-story">
-	      (SmartCard personalization self-service application)
-</a>
-</dd>
-<dt>2006-Dec-27
-</dt>
-<dd>Talk at the 23rd Chaos Communication Congress, Berlin (<a href="http://events.ccc.de/congress/2006/Fahrplan/attachments/1214-OpenXPKI_23C3_slides.pdf">slides
-</a>, 
-<a href="http://events.ccc.de/congress/2006/Fahrplan/attachments/1113-OpenXPKI_23C3_Paper.pdf">paper
-</a>, 
-<a href="ftp://ftp.ccc.de/congress/2006/video/23C3-1596-en-openxpki.m4v">video</a>, <a href="ftp://ftp.ccc.de/congress/2006/audio/23C3-1596-en-openxpki.mp3">audio
-</a>)
-</dd>
-<dt>2006-Nov-14
-</dt>
-<dd>Anonymous interface completed (incl. some style changes).
-</dd>
-<dt>2006-Nov-11
-</dt>
-<dd>SCEP support for initial enrollment and renewal committed.
-</dd>
-<dt>2006-Sep-21
-</dt>
-<dd>First version of a data exchange committed.
-</dd>
-<dt>2006-Sep-20
-</dt>
-<dd>First documentation of the crypto layer concept published.
-</dd>
-<dt>2006-Sep-05
-</dt>
-<dd>First working workflows: CRL generation, CSR, certificate issuance
-</dd>
-<dt>2006-May-30
-</dt>
-<dd>The project officially migrated from BerliOS to SourceForge.net.
-</dd>
-<dt>2006-May-12
-</dt>
-<dd>First version of support for GOST algorithms works.
-</dd>
-<dt>2006-Apr-06
-</dt>
-<dd>First version of a CLI framework commited.
-</dd>
-<dt>2006-Mar-30
-</dt>
-<dd>Automatic CA rollover works.
-</dd>
-<dd>Validity specification for certificate and CRL profiles finished.
-</dd>
-<dt>2006-Feb-21
-</dt>
-<dd>Authentication and ACL framework is complete.
-</dd>
-<dt>2005-12-09</dt>
-<dd>
-<a href="../docs/OpenXPKI-Architecture-Overview.pdf">
-	      Architecture White Paper</a> released
-</dd>
-<dt><b>2005-Oct-20
-</b>
-</dt>
-<dd>
-<b>OpenXPKI project kickoff.
-</b>
-</dd>
 
 <dt>2005-Oct-17 to 2005-Oct-18
 </dt>
@@ -248,7 +78,6 @@ OpenXPKI now works with all versions of Apache at all supported platforms in bot
 	      1. OpenCA Workshop
 </a>
 </dd>
-</dl>
 
 <h2>Security Advisories</h2>
 <p>

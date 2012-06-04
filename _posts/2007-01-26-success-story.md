@@ -1,6 +1,8 @@
 ---
-layout: page
-title: "Success story: SmartCard personalization self-service application"
+layout: post
+title: "First successful production deployment of OpenXPKI"
+category: success stories
+tags: [success story, smartcard]
 ---
 {% include JB/setup %}
 
