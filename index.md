@@ -5,6 +5,14 @@ tagline: An open, enterprise-grade PKI/Trustcenter
 ---
 {% include JB/setup %}
 
+# Migration Notice #
+
+<p>
+We are currently migrating the old website to Github and this pages contains a lot of dead links and inaccurate information. The team is also working hard to prepare a "1.0" release hopefully available at the end of 2013. If you want to test our current development head, be advised to use <b>only</b> the information found at <a href="https://openxpki.readthedocs.org/en/latest/quickstart.html">https://openxpki.readthedocs.org/en/latest/quickstart.html</a>.<br>
+The core system and the new config layer is mostly working, the SCEP server is working but lacks any kind of useful configuration and the UI has some ugly bugs. Feel free to ask for support on the mailinglist at <a href="https://lists.sourceforge.net/lists/listinfo/openxpki-users">openxpki-users@lists.sourceforge.net</a>.
+</p>
+
+
 # About OpenXPKI #
 
 The OpenXPKI Project has created an enterprise-grade PKI/Trustcenter software
